@@ -97,6 +97,16 @@ this.state = {
             cursor: this.setCursorObj(this.props.pageId, this.compId, 'b', true)
         }
     ],
+    // 歌曲列表，一个数据里包含多个焦点
+    songList:[
+        {
+            songName:'东风破',
+            cursorList:[
+                singSong:this.setCursorObj(this.props.pageId, this.compId, 'b', true),
+                addSong:this.setCursorObj(this.props.pageId, this.compId, 'b', true)
+            ]
+        }
+    ],
     getCodeKey: {
         // 获取验证码按钮
         getCodeButton: {
