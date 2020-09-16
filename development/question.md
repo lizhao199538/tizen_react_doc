@@ -8,8 +8,8 @@
 主要说明由于Tizen浏览器4.0和5.0之间的兼容性问题造成的不兼容问题
 #### 1、getBoundingClientRect问题
 div.getBoundingClientRect()可以获取
-* Tizen4.0：width、height、top、right、bottom、left、x、y
-* Tizen5.0：width、height、top、right、bottom、left
+* Tizen4.0：width、height、top、right、bottom、left
+* Tizen5.0：width、height、top、right、bottom、left、x、y
 
 ```javascript
 let clientRect = currentRect.getBoundingClientRect();
