@@ -20,7 +20,7 @@ Tizen Studio 是三星自己的开发工具，我们可以不使用他的IDE来�
 
 第一步：打开插件安装器
 
-![](../image/插件安装_1.png)
+![](http://note.youdao.com/s/Cu5anJdf)
 
 第二步：下载本地测试机插件
 
