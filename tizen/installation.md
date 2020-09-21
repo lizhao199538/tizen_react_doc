@@ -1,6 +1,4 @@
-<h1 align="center">Tiezn Studio 前端开发注意事项</h1>
-
-一些开发过程中踩过的坑和Tizen的使用建议
+<h1 align="center">Tiezn Studio 前端开发环境配置</h1>
 
 ## 环境
 
@@ -12,7 +10,7 @@ Tizen Studio 是三星自己的开发工具，我们可以不使用他的IDE来�
 
 建议安装到C盘你找得到的地方（该程序不生成桌面快捷方式）
 
-安装完成后运行 tizen-studio/ide/TizenStudio.exe (为了方便后续使用，建议生成桌面快捷方式)
+安装完成后运行 tizen-studio/ide/TizenStudio.exe （为了方便后续使用，建议生成桌面快捷方式）
 
 ### 插件
 
@@ -22,15 +20,14 @@ Tizen Studio 是三星自己的开发工具，我们可以不使用他的IDE来�
 
 ![](http://master.dig88.cn/test/img/201.png)
 
-第二步：下载本地测试机插件
+第二步：下载本地测试机插件（如果下载多次出现failed，请重新打开安装器）
 
 ![](http://master.dig88.cn/test/img/202.jpg)
 
-第三步：下载扩展插件
-
+第三步：下载扩展插件（最好不要与第二步同时执行）
 ![](http://master.dig88.cn/test/img/203.jpg)
 
-插件下载完之后就可以运行测试环境了(右键点击你的项目)
+插件下载完之后就可以运行测试环境了（右键点击你的项目）
 
 ![](http://master.dig88.cn/test/img/101.jpg)
 
@@ -70,15 +67,15 @@ Tizen Studio 是三星自己的开发工具，我们可以不使用他的IDE来�
 
 1. 将打包生成的 .wgt 文件拷贝到测试机电脑的 **D:\TC\webapps\youshu** 文件夹下
 2. 运行 **D:\TC\bin** 下的 shutdown.bat 然后 shutuo.bat 重新读取本地文件
-3. 打开测试机环境(一般已处于打开状态下)
+3. 打开测试机环境（一般已处于打开状态下）
 ![](http://master.dig88.cn/test/img/100.jpg)
 4. 传入安装包
-	+ 停止日志: Ctrl+P P (如果日志刷屏的话)
-	+ 启动命令: 20089999 再输入 98 (如果wascmd 命令失效的话)
+	+ 停止日志: Ctrl+P P （如果日志刷屏的话）
+	+ 启动命令: 20089999 再输入 98 （如果wascmd 命令失效的话）
 	+ 进入文件夹: cd /opt/home
-	+ 查询所有文件: ls (查看所有传入的安装包)
-	+ 删除安装包: rm xxx.wgt (如果你之前有传入当前项目的安装包一定要先删除掉)
-	+ 查询测试机所有软件信息: wascmd -l (是小写L,不是大写I) 找到你要安装的项目的ID(app_id)
+	+ 查询所有文件: ls （查看所有传入的安装包）
+	+ 删除安装包: rm xxx.wgt （如果你之前有传入当前项目的安装包一定要先删除掉）
+	+ 查询测试机所有软件信息: wascmd -l （是小写L,不是大写I） 找到你要安装的项目的ID（app_id）
 	+ 卸载软件: wascmd -u xxx(ID)
 	+ 传入安装包: `wget http://192.168.0.102:8089/youshu/xxx.wgt`
 	+ 安装软件: wascmd -i xxx(ID) -p /opt/home/xxx.wgt
