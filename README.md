@@ -26,4 +26,4 @@ xxx，那个api.js安装以及常用发放案例等
 ## 项目产品以及UI相关的规则说明
 xxx
 
-![在这里插入图片描述](/tizen/img/aaa.png)
+![在这里插入图片描述](https://mediacenter-1255803335.cos.ap-beijing.myqcloud.com/xiaojing-1255803335/liveCourse/test/upload_3323e942fb0204187000a8f471d053e6.png)
