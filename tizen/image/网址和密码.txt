@@ -1,0 +1,14 @@
+https://developer.samsung.com/tv/develop/getting-started/setting-up-sdk/creating-certificates
+
+
+ishowdata
+
+
+
+https://seller.samsungapps.com/tv/portal/main
+
+
+https://github.com/aishuda/tizen_react_doc/blob/stone/README.md
+
+https://github.com/aishuda/tizen_react_doc/blob/stone/tizen/installation.md
+
