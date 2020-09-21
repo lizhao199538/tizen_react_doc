@@ -1,7 +1,5 @@
 <h1 align="center">Tiezn Studio 前端开发环境配置</h1>
 
-![测试](https://qcloudimg-moss.cedock.com/project/tvq/qsj_img/2020/08/27/28f6da82c67048e4abd9baf68319ac89.png)
-
 ## 环境
 
 Tizen Studio 是三星自己的开发工具，我们可以不使用他的IDE来编辑代码，但是要用他来将项目打包，才能使得三星认同
