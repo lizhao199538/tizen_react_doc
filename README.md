@@ -6,24 +6,21 @@
 ## 前端框架说明
 艾数达前端项目此后用react进行开发，在react基础上封装了一个脚手架，后期所有的项目可以在此技术上进行快速开发
 
-* 点击查看开发框架文档 [react+tizen](./development)
+* 点击查看开发框架文档 [点击查看](./development)
 
-## 开发器以及相关自由sdk说明
+## 系统安装配置相关的说明
 
-#### 开发器安装说明
-xxxx
+#### 系统安装说明
+Tizen系统本地开发环境搭建、打包、真机安装相关的说明，[点击查看](./tizen)
 
-#### 项目配置说明
-xxxx，xml配置说明等
-
-#### 自有sdk开发说明
-xxx，那个api.js安装以及常用发放案例等
-
+#### 本地项目创建以及配置说明
+本地通过开发器创建创建相册以及配置项目的简单说明，[点击查看](./tizen/project.md)
 
 ## 开发中常见问题说明
 开发中常见问题大家随时记录下来，以避免后期再次遇到同样的问题，[点击查看](./development/question.md)
 
+## 测试相关规则说明
+测试中一般按照一下规则进行发散测试，[点击查看](./development/testProject.md)
+
 ## 项目产品以及UI相关的规则说明
 xxx
-
-![在这里插入图片描述](https://mediacenter-1255803335.cos.ap-beijing.myqcloud.com/xiaojing-1255803335/liveCourse/test/upload_3323e942fb0204187000a8f471d053e6.png)
