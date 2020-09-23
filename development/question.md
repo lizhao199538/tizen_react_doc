@@ -4,14 +4,6 @@
 开发中常见问题大家随时记录下来，以避免后期再次遇到同样的问题<br/>
 😋💕🦄
 
-### 开发准备
-+ 三星官方API
-	* API文档地址：[tizen-web-device-api](https://developer.samsung.com/smarttv/develop/api-references/tizen-web-device-api-references.html)
-	- API引入方式：
-		- 在项目的index.html中 引入 `<script type="text/javascript" src="$WEBAPIS/webapis/webapis.js"></script>`
-		- 在项目的config.xml中 引入 `<tizen:privilege name="http://developer.samsung.com/privilege/productinfo"/>`
-	- 使用方式：	`var duid = webapis.productinfo.getDuid();`（模拟器拿不到值，需要值可以在真机获取后使用）
-
 ## Tizen浏览器版本兼容问题
 主要说明由于Tizen浏览器4.0和5.0之间的兼容性问题造成的不兼容问题
 #### 1、getBoundingClientRect问题
