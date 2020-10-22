@@ -28,6 +28,20 @@ if (clientRect.x === undefined || clientRect.x === '') {
     };
 }
 ```
+#### 2、flex在老版本中UI问题
+- 由于react在编译过程会将flex的兼容写法过滤掉，所以我们在public中单独引用flex样式文件./public/flex.css（免去编译的步骤，保留原汁原味代码）
+- 在项目中的组件样式中，严谨使用flex样式，如果使用的话，将样式名字放到./public/flex.css中
+
+#### 3、老版本的js兼容问题，通过babel-polyfill来解决，具体解决方式如下
+```javascript
+// 在./config/webpack.config.js中增加babel-polyfill
+entry: [
+    'babel-polyfill',
+    // -- 其他自有配置    
+].filter(Boolean)
+```
+
+
 ### 开发问题
 + 变量赋值
 	- 全局变量赋值请使用**var**，let赋值后在个别机型会出现undefined。
